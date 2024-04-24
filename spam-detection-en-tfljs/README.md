@@ -31,3 +31,5 @@ Spam comment example:
 ```text
 Check out my awesome free images from web stock!
 ```
+
+![Screenshot](Screenshot.png)
