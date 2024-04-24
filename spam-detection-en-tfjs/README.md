@@ -11,6 +11,11 @@ More examples can be found at:
 
 https://github.com/tensorflow/tfjs-examples
 
+More tutorials can be found at:
+- https://developers.google.com/learn/pathways/going-further-text-classification-web
+- https://www.tensorflow.org/tutorials
+- https://www.kaggle.com/
+
 -------------------
 
 ## Usage
