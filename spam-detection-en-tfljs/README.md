@@ -5,7 +5,7 @@ This base on tutorial from Google Developers:
 
 https://developers.google.com/learn/pathways/get-started-text-classification-web
 
-This very simple skeleton simply loads in TensorFlow.js and prints out the version once loaded to the DOM.
+This very simple skeleton simply loads in TensorFlow.js and check new comment is a spam.
 
 More examples can be found at:
 
