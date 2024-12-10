@@ -1,0 +1,8 @@
+# IDE files:
+.idea
+
+# Packages:
+node_modules
+
+# Generated files:
+public/script.js

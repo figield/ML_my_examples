@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tensorflow Toxicity model sandbox</title>
+    <script type="text/javascript" src="script.js"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            font-family: 'helvetica', 'calibri', 'arial', 'sans-serif';
+        }
+
+        div.results {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            padding: 10px;
+        }
+
+        div.results.hidden {
+            display: none;
+        }
+
+        div.results > div.prediction {
+            margin: 10px;
+            border: 1px solid #ddd;
+            width: 110px;
+        }
+
+        div.results > div.prediction > div.label {
+            padding: 10px;
+            font-size: 11px;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+
+        div.results > div.prediction > div.value {
+            padding: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        div.results > div.prediction > div.probabilities {
+            padding: 5px;
+            font-size: 9px;
+            font-weight: 300;
+            display: flex;
+            flex-direction: row;
+            align-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        div.results > div.prediction > div.probabilities > div {
+            width: 50%;
+        }
+
+        div.results > div.prediction > div.probabilities > div:nth-child(1) {
+            text-align: left;
+        }
+
+        div.results > div.prediction > div.probabilities > div:nth-child(2) {
+            text-align: right;
+        }
+
+        input[type=text] {
+            font-size: 14px;
+            padding: 10px 12px;
+        }
+
+        button {
+            font-size: 14px;
+            padding: 10px;
+        }
+    </style>
+
+</head>
+<body>
+<h1>Tensorflow toxicity model test</h1>
+
+<label for="text-input-field">Text:</label>
+<input type="text" id="text-input-field"/>
+
+<button onclick="button_click_handler()">Analyse</button>
+
+
+<div class="results hidden" id="results">
+
+</div>
+
+</body>
+</html>
